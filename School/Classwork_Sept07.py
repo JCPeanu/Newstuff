@@ -1,0 +1,5 @@
+x = float(input('Please enter three numbers. I will return them in order from least to greatest. '))
+y = float(input('The second input: '))
+z = float(input('The thrid input: '))
+mn = (x + y + z) - min(x, y, z) - max(x, y, z)
+print("The numbers in order are -> {}, {}, {}".format(min(x, y, z), mn ,max(x, y, z)))
