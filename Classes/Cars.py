@@ -1,6 +1,3 @@
-from posixpath import supports_unicode_filenames
-
-
 class Cars:
     def __init__(self, model_given, color_given, age_given, oil_change):
         self.model = model_given
